@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+      <h1 id="title">Social Media Survey</h1>
+      <p id="description">Thanks for your concern</p>
+      
+      <form id="survey-form">
+        <fieldset id="sm1">
+          <label for="name" id="name-label">Full Name: 
+            <input required id="name" type="text" placeholder="Name" />
+            </label>
+          <label for="number" id="number-label">Age: 
+            <input required id="number" type="number" min="18" max="65" placeholder="Age (18-65)" />
+            </label>
+          <label for="email" id="email-label">Email: 
+            <input required id="email" type="email" placeholder="Mail" />
+            </label>
+          <label for="gender">Gender: 
+            <input required id="gender" type="radio" name="gender" value="male" class="inline" /> Male
+            <input required id="gender" type="radio" name="gender" value="female" class="inline" /> Female
+            <input required id="gender" type="radio" name="gender" value="others" class="inline" /> Others
+            </label>
+        </fieldset>
+        <fieldset id="sm2">
+          <label for="social-media">Which social media do you use more often?</label>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="facebook" type="checkbox"> Facebook
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="instagram" type="checkbox"> Instagram
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="linkedin" type="checkbox"> LinkedIn
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="reddit" type="checkbox"> Reddit
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="snapchat" type="checkbox"> Snapchat
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="twitter" type="checkbox"> X (twitter)
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="discord" type="checkbox"> Discord
+            </label>
+            </div>
+          <div>
+            <label for="social-media"><input required id="social-media" name="social-media" value="tiktok" type="checkbox"> TikTok
+            </label>
+            </div>
+          <label for="dropdown">Which social media do you find more useful<br>
+            <select required id="dropdown" name="useful-social-media">
+              <option value="">(Select one)</option>
+              <option value="1">Facebook</option>
+              <option value="2">Instragram</option>
+              <option value="3">LinkedIn</option>
+              <option value="4">Reddit</option>
+              <option value="5">Snapchat</option>
+              <option value="6">X (Twitter)</option>
+              <option value="7">Discord</option>
+              <option value="8">TikTok</option>
+              </select>
+            </label>
+          <label for="banned-social-media">Which social media do you think should be banned?<br>
+            <select required id="banned-social-media" name="banned-social-media">
+              <option value="">(Select one)</option>
+              <option value="1">Facebook</option>
+              <option value="2">Instragram</option>
+              <option value="3">LinkedIn</option>
+              <option value="4">Reddit</option>
+              <option value="5">Snapchat</option>
+              <option value="6">X (Twitter)</option>
+              <option value="7">Discord</option>
+              <option value="8">TikTok</option>
+              </select>
+          </label>
+          <label for="reason">Why do you use Social Media?</label>
+            <select required id="reason" name="reason">
+              <option value="">(Select one)</option>
+              <option value="1">Personal use</option>
+              <option value="2">Official use</option>
+              <option value="3">Both</option>
+              </select>
+            <div></div><label for="comments">Share your thoughts: </label>
+            <textarea id="comments" name="comments" row="3" cols="20" placeholder="In my opinion..."></textarea>
+            </div>
+          </fieldset>
+          <label for="acknowledgement"><input id="acknowledgement" name="acknowledgement" type="checkbox" value="acknowledgement" /> I hereby acknowledge & submit the form.
+          </label>
+          <input id="submit" type="submit" value="Submit" />
+      </form>
+    </body>
+    </html>
+    
