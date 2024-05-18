@@ -1,11 +1,27 @@
-<h1 align="center">Hi 👋, I'm Shuvo</h1>
-<h3 align="center">A passionate wannabe frontend developer from Bangladesh.</h3>
+# Survey Form (Practice)
 
-- 🔭 I’m currently working on [survey form](https://github.com/shuvosarkar96/surveyform-prework.git)
+This is a practice project for creating a responsive survey form using HTML and CSS. The form collects user information and feedback, demonstrating the use of various form elements and styling techniques.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> </p>
+## Features
+
+- User-friendly form layout
+- Responsive design
+- Validation for required fields
+
+
+## Technologies Used
+
+- HTML5
+- CSS3
+
+
+## Usage
+
+Open `index.html` in a web browser to view and interact with the survey form.
+
+
+## Authors
+
+[Shuvo Sarkar](https://www.linkedin.com/in/shuvosarkarofficial)
+
